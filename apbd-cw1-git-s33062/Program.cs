@@ -6,7 +6,7 @@ class Program
         Console.WriteLine("Hello, World!");
         int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         Console.WriteLine(string.Join(", ", numbers));
-        Console.WriteLine(CalculateAverage(numbers));
+        Console.WriteLine("avarage: "+CalculateAverage(numbers));
         
         
         
