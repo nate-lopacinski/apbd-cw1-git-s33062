@@ -10,6 +10,7 @@ class Program
         
 
         Console.WriteLine("max: "+CalculateMax(numbers));
+        Console.WriteLine("min: "+CalculateMin(numbers));
         
     int CalculateAverage(int[] values)
     {
@@ -19,6 +20,10 @@ class Program
     int  CalculateMax(int[] values)
     {
         return values.Max();
+    }
+    int   CalculateMin(int[] values)
+    {
+        return values.Min();
     }
     
     }
