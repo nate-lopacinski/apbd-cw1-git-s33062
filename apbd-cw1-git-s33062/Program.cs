@@ -8,7 +8,7 @@ class Program
         Console.WriteLine(string.Join(", ", numbers));
         Console.WriteLine("avarage: "+CalculateAverage(numbers));
         
-        Console.WriteLine(CalculateMax(numbers));
+        Console.WriteLine("maximum: "+CalculateMax(numbers));
         
     int CalculateAverage(int[] values)
     {
