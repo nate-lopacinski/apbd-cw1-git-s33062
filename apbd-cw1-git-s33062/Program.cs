@@ -4,6 +4,17 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        Console.WriteLine(string.Join(", ", numbers));
+        Console.WriteLine(CalculateAverage(numbers));
         
+        
+        
+    int CalculateAverage(int[] values)
+    {
+        return values.Sum() / values.Length;
     }
+    }
+
+        
 }
